@@ -1,7 +1,6 @@
 
 import { faker } from '@faker-js/faker'
 
-
 const post = {
   id: faker.datatype.number({ min: 10, max: 100 }),
 };
@@ -214,3 +213,7 @@ describe('API tests', () => {
       });
     });
   });
+
+
+
+
